@@ -1,0 +1,14 @@
+{
+  "extends": ["airbnb", "react-app"],
+  "env": {
+    "jest": true
+  },
+  "globals": {
+    "document": true,
+    "window": true
+  },
+  "rules": {
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "linebreak-style": 0
+  }
+}
