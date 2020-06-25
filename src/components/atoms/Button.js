@@ -19,6 +19,23 @@ const StyledButton = styled.button`
     font-size: 2.1rem;
     padding: 10px 60px;
   }
+
+  @media ${response.bigTablet} {
+    font-size: 2.5rem;
+  }
+
+  @media ${response.desktop} {
+    font-size: 1.9rem;
+  }
+
+  @media ${response.huge} {
+    font-size: 2rem;
+  }
+
+  &:hover {
+    background-color: black;
+    color: ${({ theme }) => theme.colors.primary};
+  }
 `;
 
 const StyledLink = styled.a`
@@ -29,14 +46,32 @@ const StyledLink = styled.a`
   color: ${({ theme }) => theme.colors.white};
   padding: 8px 40px;
   text-decoration: none;
+  transition: 0.3s;
 
   @media ${response.phone} {
     font-size: 1.7rem;
   }
 
   @media ${response.tablet} {
-    font-size: 2.1rem;
+    font-size: 1.9rem;
     padding: 10px 60px;
+  }
+
+  @media ${response.bigTablet} {
+    font-size: 2.1rem;
+  }
+
+  @media ${response.desktop} {
+    font-size: 1.9rem;
+  }
+
+  @media ${response.huge} {
+    font-size: 2rem;
+  }
+
+  &:hover {
+    background-color: black;
+    color: ${({ theme }) => theme.colors.primary};
   }
 `;
 

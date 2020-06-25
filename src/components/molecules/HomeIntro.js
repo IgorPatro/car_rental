@@ -13,6 +13,31 @@ const StyledWrapper = styled.div`
   bottom: 10%;
   left: 50%;
   transform: translateX(-50%);
+
+  @media ${response.tablet} {
+    width: 80%;
+    left: 5vh;
+    bottom: 15%;
+    transform: translateX(0);
+  }
+
+  @media ${response.desktop} {
+    width: 50%;
+    left: 8vh;
+    bottom: 15%;
+  }
+
+  @media ${response.bigDesktop} {
+    width: 45%;
+    bottom: 20%;
+    left: 10vh;
+  }
+
+  @media ${response.huge} {
+    width: 40%;
+    bottom: 25%;
+    left: 12vh;
+  }
 `;
 
 const StyledHeading = styled(Heading)`
@@ -21,7 +46,23 @@ const StyledHeading = styled(Heading)`
   }
 
   @media ${response.tablet} {
+    font-size: 4rem;
+  }
+
+  @media ${response.bigTablet} {
     font-size: 4.5rem;
+  }
+
+  @media ${response.desktop} {
+    font-size: 4.5rem;
+  }
+
+  @media ${response.bigDesktop} {
+    font-size: 4.7rem;
+  }
+
+  @media ${response.huge} {
+    font-size: 5rem;
   }
 `;
 
@@ -33,8 +74,25 @@ const StyledParagraph = styled(Paragraph)`
   }
 
   @media ${response.tablet} {
-    font-size: 2.2rem;
+    font-size: 1.9rem;
     margin: 15px 0 30px;
+  }
+
+  @media ${response.bigTablet} {
+    font-size: 2.1rem;
+    margin: 25px 0 35px;
+  }
+
+  @media ${response.desktop} {
+    font-size: 1.9rem;
+  }
+
+  @media ${response.bigDesktop} {
+    font-size: 2rem;
+  }
+
+  @media ${response.huge} {
+    font-size: 2.1rem;
   }
 `;
 
