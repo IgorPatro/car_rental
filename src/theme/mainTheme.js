@@ -4,7 +4,7 @@ const colors = {
   lightgrey: '#F2F2F2',
   grey: '#646363',
   black: '#000000',
-  blackAlpha: 'rgba(0, 0, 0, 0.8)',
+  blackAlpha: 'rgba(0, 0, 0, 0.9)',
 };
 
 const zIndex = {

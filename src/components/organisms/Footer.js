@@ -11,19 +11,19 @@ import FooterColumn from 'components/molecules/FooterColumn';
 
 // Main items
 const StyledWrapper = styled.footer`
-  /* position: absolute;
-  bottom: 0;
-  left: 0; */
   width: 100%;
-  padding: 10px;
+  padding: 20px 15px 15px;
   background-color: ${({ theme }) => theme.colors.primary};
   color: ${({ theme }) => theme.colors.white};
-
-  // TODO: SET THE GLOBAL MARGIN TOP UPPER FOOTER
-  /* margin-top: 100px; */
+  margin-top: 50px;
 
   @media ${response.desktop} {
     padding: 20px;
+    margin-top: 120px;
+  }
+
+  @media ${response.huge} {
+    margin-top: 170px;
   }
 `;
 

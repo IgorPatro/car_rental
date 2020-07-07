@@ -108,7 +108,7 @@ const HomeIntro = () => (
       Zarezerwuj swój samochód marzeń już teraz! Lorem ipsum dolor sit amet, consectetur adipiscing
       elit. Nam lacus metus, tempor ut lobortis eu, sollicitudin vel est.
     </StyledParagraph>
-    <Button link href="#">
+    <Button link big href="#">
       Rezerwacja online
     </Button>
   </StyledWrapper>
