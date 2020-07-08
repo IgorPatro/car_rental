@@ -8,6 +8,7 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Home from 'views/Home';
 import Cars from 'views/Cars';
 import Services from 'views/Services';
+import Contact from 'views/Contact';
 
 const App = () => (
   <BrowserRouter>
@@ -18,6 +19,7 @@ const App = () => (
         <Route path="/cars" component={Cars} />
         <Route path="/services" component={Services} />
       </Switch>
+      <Contact />
     </ThemeProvider>
   </BrowserRouter>
 );
