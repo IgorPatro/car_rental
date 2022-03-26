@@ -3,7 +3,7 @@
 ## Status: ````Canceled````
 
 ## Description
-Website from Car Rental from Rzeszów
+Website for Car Rental from Rzeszów
 
 ## Technologies
 - CRA
